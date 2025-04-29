@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        bat 'python --version'
-      }
+        bat "C:\\Users\\vitna\\Python\\Python126\\python.exe --version"
+        }
     }
     stage('hello') {
       steps {
